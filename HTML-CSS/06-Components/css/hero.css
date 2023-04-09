@@ -1,0 +1,102 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+
+/* GENERAL CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Rubik', sans-serif;
+}
+/* HEADER CONTAINER  */
+
+.container {
+    /* Lab 15.1 */
+    width: 1200px;
+    margin: 0 auto 0;
+    /* background-color: aqua; */
+}
+header {
+    /* Lab 15.1 */
+    height: 100vh;
+    /* background-color: #df5718; */
+    /* Lab 15.2 */
+    background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url('/hero.jpg');
+    background-size: cover;
+    /* height: 100vh; */
+    position: relative;
+    /* Lab 15.2 */
+    color: #fafafa;
+}
+nav {
+    /* Lab 15.1 */
+    height: 40px;
+    font-weight: 600;
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 32px; */
+}
+.header_container {
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.header-container-inner {
+    width: 50%;
+}
+.header-container-inner > h1 {
+    /* Lab 15.1 */
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    line-height: 1.05;
+    
+}
+.header-container-inner > p {
+    /* Lab 15.1 */
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 48px;
+}
+.btn:link, .btn:visited {
+    /* Lab 15.1 */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 32px;
+    border-radius: 12px;
+    background-color: #e48e67;
+    display: inline-block;
+    /* Lab 15.2 */
+    color: #fafafa;
+}
+.btn:hover {
+    /* Lab 15.2 */
+    background-color: #eb540e;
+    color: rgb(235, 219, 219);
+}
+/* SECTION CONTAINER */
+h2 {
+    /* Lab 15.1 */
+    font-size: 44px;
+    margin-bottom: 32px;
+    /* Lab 15.2 */
+    
+}
+section {
+    /* Lab 15.1 */
+    padding: 96px 0;
+    background: #ddd5d5;
+}

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+    margin: 40px auto;
+    width: 825px;
+    border: 3.5px solid #dd63c9;
+}
+
+.product {
+    border: 3.5px solid #000;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.product::after {
+    position: absolute;
+    top: -15px;
+    left: -40px;
+    content: "SALE";
+    color: #fff;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(224, 18, 18);
+}
+.product-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    background-color: #a59a9a56;
+}
+
+.price {
+    font-size: 24px;
+}
+
+.shipping {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    color: #867c7cfa;
+    margin-bottom: 20px;
+}
+
+.more-info {
+    color: #000;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.colors {
+    margin: 20px 0 20px;
+}
+.color {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+}
+
+.color-red {
+    background-color: red;
+}
+.color-yellow {
+    background-color: yellow;
+}
+.color-green {
+    background-color: green;
+}
+.color-brown {
+    background-color: brown;
+}
+.details-title {
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin-bottom: 8px;
+}
+
+ul.details-list li{
+    list-style-position: inside;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+.add-cart {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+    border-width: 0;
+    height: 40px;
+}

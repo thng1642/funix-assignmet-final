@@ -1,0 +1,43 @@
+
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.product {
+    border: 3.5px solid #000;
+    width: fit-content;
+}
+
+.product-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    background-color: #a59a9a56;
+}
+
+.price {
+    font-size: 24px;
+}
+
+.shipping {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #867c7cfa;
+}
+
+.more-info {
+    color: #000;
+}
+
+.details-title {
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+
+.add-cart {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}

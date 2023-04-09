@@ -1,0 +1,63 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* GENERAL CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    line-height: 1;
+}
+
+/* CONTAINER PAGINATION */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BUTTON ICON */
+.btn {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #44a00f;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn-icon {
+    stroke: #44a00f;
+    width: 24px;
+    height: 24px;
+}
+
+/* PAGES LINK */
+.page-link {
+    color: #44a00f;
+    text-decoration: none;
+    font-size: 16px;
+    width: 36px;
+    height: 36px;
+    margin: 0 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CURRENT PAGE */
+.page-link--current {
+    background-color: #44a00f;
+    color: #e7f1e2;
+    border-radius: 100%;
+}
+/* DOTS */
+.dots {
+    color: #44a00f;
+}
