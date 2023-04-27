@@ -1,0 +1,29 @@
+[
+    {
+        "heading": "customer services",
+        "values": [
+            "Help & Contact Us",
+            "Return & Refunds",
+            "Online Stores",
+            "Terms & Conditions"
+        ]
+    },
+    {
+        "heading": "company",
+        "values": [
+            "What We Do",
+            "Available services",
+            "Latest Poster",
+            "FAQs"
+        ]
+    },
+    {
+        "heading": "social media",
+        "values": [
+            "Twitter",
+            "Instagram",
+            "Facebook",
+            "Pinterest"
+        ]
+    }
+]

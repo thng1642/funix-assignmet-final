@@ -1,0 +1,22 @@
+{
+    "name": "categories",
+    "brand": "apple",
+    "list": [
+        {
+            "type": "",
+            "values": ["All"]
+        },
+        {
+            "type": "iphone & mac",
+            "values": ["iPhone", "iPad", "MacBook"]
+        },
+        {
+            "type": "wireless",
+            "values": ["AirPod", "Watch"]
+        },
+        {
+            "type": "other",
+            "values": ["Mouse", "Keyboard", "Other"]
+        }
+    ]
+}
